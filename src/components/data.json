@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "type": "start",
+      "x": 220,
+      "y": 170,
+      "text": {
+        "x": 350,
+        "y": 190,
+        "value": "图像源"
+      },
+      "properties": {},
+      "baseType": "node"
+    },
+    {
+      "id": "2",
+      "type": "rect",
+      "x": 350,
+      "y": 170,
+      "properties": {},
+      "baseType": "node",
+      "text": {
+        "x": 350,
+        "y": 170,
+        "value": "图像滤波"
+      }
+    },
+    {
+      "id": "3",
+      "type": "end",
+      "x": 500,
+      "y": 170,
+      "properties": {},
+      "baseType": "node",
+      "text": {
+        "x": 350,
+        "y": 170,
+        "value": "输出源"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "00f55245-513e-43a2-9cb0-adb61b01adc8",
+      "type": "polyline",
+      "sourceNodeId": "1",
+      "targetNodeId": "2",
+      "startPoint": {
+        "x": 240,
+        "y": 170
+      },
+      "endPoint": {
+        "x": 300,
+        "y": 170
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 240,
+          "y": 170
+        },
+        {
+          "x": 300,
+          "y": 170
+        }
+      ]
+    },
+    {
+      "id": "00f55245-513e-43a2-9cb0-adb61b01adc8",
+      "type": "polyline",
+      "sourceNodeId": "2",
+      "targetNodeId": "3",
+      "startPoint": {
+        "x": 350,
+        "y": 170
+      },
+      "endPoint": {
+        "x": 500,
+        "y": 170
+      },
+      "properties": {},
+      "pointsList": [
+        {
+          "x": 350,
+          "y": 170
+        },
+        {
+          "x": 480,
+          "y": 170
+        }
+      ]
+    }
+
+  ]
+}
